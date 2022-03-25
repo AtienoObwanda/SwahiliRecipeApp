@@ -1,2 +1,2 @@
-# SwahiliRecipeApp
-Recipe app
+# Swahili Recipe App
+*Recipe app*
