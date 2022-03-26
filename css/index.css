@@ -49,20 +49,96 @@
     top: 355px;
     border-radius: 12px;
 }
+.descLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 500px;
+    height: 146px;
+    left: 150px;
+    top: 418px;
+
+}
+.desc{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
 .desc h1{
+    position: static;
+    width: 347px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FEA150;
 
 }
 .desc h3{
-
+    position: static;
+    width: 449px;
+    height: 46px;
+    left: 0px;
+    top: 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #333333;
 }
 .desc p{
-    
+    position: static;
+    width: 319px;
+    height: 42px;
+    left: 0px;
+    top: 104px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.shapeP{
+    margin-top: 20%;
+    height: 30%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.shapeC{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+}
+.shapeP img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 1110px) {
+    .shapeP{
+        display: flex;
+        align-items: flex-end;
+        object-fit: fill;
+    }
 }
 
-
-
-
 /*ABOUT US */
+
 /* RECIPE */
 /*CONTACT */
 /*FOOTER*/
