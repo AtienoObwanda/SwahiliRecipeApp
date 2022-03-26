@@ -176,7 +176,7 @@
 }
 
 /* RECIPE */
-.recipe{
+.recipeCard{
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 88%;
@@ -203,7 +203,7 @@
 .cardImg{
   height: 240px;
 }
-.recipe h1{
+.recipeCard h1{
     height: 36px;
     font-family: 'sans';
     font-style: normal;
@@ -298,3 +298,10 @@ input[type=text],input[type=email],#comment{
 .footer text{
     color: #ffff;
 }
+
+  /*
+  .recipeImg{
+    height: 240px;
+    width:50%
+  }
+  */
