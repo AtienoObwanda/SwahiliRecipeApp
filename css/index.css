@@ -1,19 +1,28 @@
-/*NAV BAR*/
-.navbar .navbar-nav .nav-link {
-    color: #A50;
-    font-size: 1.1em;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
 }
-.navbar .navbar-nav .nav-link:hover{
-    color: #582719;
+
+/* NAVIGATION BAR */
+.nav-link {
+    font-weight: 700;
+    color: black ;
 }
-.nav-item {
-  color: #A50 !important;
+.text:hover{
+    color: #333333 !important;
 }
-.sm-icons {
-  flex-direction: row;
+.text {
+    color: #fea150 !important;
+    font-family: 'Roboto Slab', serif;
+    
 }
-@media only screen and (max-width: 960px) {
-  .sm-icons .nav-item {
-    padding-right: 1em;
-  }
+.sm {
+    color: rgb(248, 141, 0) !important;
 }
+
+
+/*HERO SECTION*/
+/*ABOUT US */
+/* RECIPE */
+/*CONTACT */
+/*FOOTER*/
