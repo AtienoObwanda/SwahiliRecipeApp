@@ -30,6 +30,9 @@
 }
 
 /*HERO SECTION*/
+.heroSection{
+    height: 650px;
+}
 .eclipse img{
     background-image: url("./assets/Ellipse 1.svg");
     margin-left: 3em;
@@ -111,12 +114,13 @@
     color: #000000;
 }
 .shapeP{
-    margin-top: 20%;
-    height: 30%;
+    margin-top: 21%;
     width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
+    height: 17.5%;
+    object-fit: fill;
 }
 .shapeC{
     width: 100%;
@@ -127,16 +131,36 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 650px;
+
+   
 }
 @media screen and (max-width: 1110px) {
     .shapeP{
         display: flex;
         align-items: flex-end;
-        object-fit: fill;
     }
 }
-
+.about{
+    height: 400px;
+    margin-top: 8em;
+}
+.about h1{
+    height: 36px;
+    font-family: 'sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Roboto Slab', serif;
+    color: #333333;
+    font-weight: 500;
+}
+.about p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #333333;
+}
 /*ABOUT US */
 
 /* RECIPE */
