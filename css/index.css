@@ -9,7 +9,14 @@
     color: black ;
 }
 .text:hover{
-    color: #ffffff !important;
+    color: #000000 !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
 }
 .text {
     color: #333333 !important;
@@ -177,6 +184,9 @@
 }
 .rLink{
   color: #FEA150;
+  font-size: 13px !important;
+  font-family: 'Roboto Slab', serif;
+
 }
 .rLink :hover{
   color: #333333 !important;
@@ -206,6 +216,15 @@
     margin-bottom: 2em;
 }
 /*CONTACT */
+.contact{
+    background-image: url(../assets/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    color: white;
+    font-family: cursive;
+  }
 .contact h1{
     height: 36px;
     font-family: 'sans';
@@ -214,18 +233,61 @@
     font-size: 24px;
     line-height: 36px;
     font-family: 'Roboto Slab', serif;
-    color: #333333;
+    color: #ffffff;
     font-weight: 500;
     margin-bottom: 2em;
 }
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+    font-weight: 300;
+  }
+  
+  .form-control::-webkit-input-placeholder { 
+    color: white; 
+  }
+  #comment{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #nam{
+    width: 50%;
+    margin-left: 41%;
+    margin-right: 25px;
+    margin-bottom: 5px;
+  
+  }
+  #em{
+    width: 50%;
+    margin-left: 9%;
+    margin-bottom: 5px;
+  }
+  button{
+    background: #FEA150!important;
+    margin-left: 5%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  .formContainer{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(196, 196, 196, 0.28);
+    ;
+  }
+
 /*FOOTER*/
 .footer{
     background-color: #FEA150;
+    overflow: hidden;
 }
 .footer h1{
 
     margin-top: 15px;
-    line-height: 51px;
+    line-height: 30px;
     vertical-align: middle;
     font-size: medium;
     color: #FFFFFF !important;
