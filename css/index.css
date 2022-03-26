@@ -41,6 +41,27 @@
     border-radius: 0px;
 
 }
+.food img{
+    position: absolute;
+    width: 282px;
+    height: 277px;
+    left: 1186px;
+    top: 355px;
+    border-radius: 12px;
+}
+.desc h1{
+
+}
+.desc h3{
+
+}
+.desc p{
+    
+}
+
+
+
+
 /*ABOUT US */
 /* RECIPE */
 /*CONTACT */
