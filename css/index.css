@@ -9,19 +9,38 @@
     color: black ;
 }
 .text:hover{
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 .text {
-    color: #fea150 !important;
+    color: #333333 !important;
     font-family: 'Roboto Slab', serif;
+    font-weight: 300;
     
 }
 .sm {
-    color: rgb(248, 141, 0) !important;
+    color: #333333 !important;
+}
+.container a{
+    background-position-x: 10px;
+    background-position-y: 10px;
+    font-size: 18px;
+    line-height: 100%;
+    line-height:10px ;
+
 }
 
-
 /*HERO SECTION*/
+.eclipse img{
+    background-image: url("./assets/Ellipse 1.svg");
+    margin-left: 3em;
+    position: absolute;
+    height: 1300px;
+    width: 1300px;
+    left: 400px;
+    top: -500px;
+    border-radius: 0px;
+
+}
 /*ABOUT US */
 /* RECIPE */
 /*CONTACT */
