@@ -152,7 +152,11 @@
 /*ABOUT US */
 .about{
     height: 150px;
-    margin-top: 8em;
+    font-size: 12px;
+    margin-top: 2em;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 88%;
     margin-bottom: 2em;
 
 }
@@ -178,7 +182,7 @@
 /* RECIPE */
 .recipeCard{
   background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
   width: 88%;
   margin-bottom: 2em;
 }
@@ -196,7 +200,7 @@
 
   margin-bottom: 3em;
   background: #FFFFFF;
-  box-shadow: 0px 4px 4px #FEA150;
+  box-shadow: 4px 4px 4px 4px #FEA150;
   margin-left: 1em;
   margin-right: 1em;
 }

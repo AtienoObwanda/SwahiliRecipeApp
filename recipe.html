@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/recipe.js"></script>
+    <title>Swahili Dishez | Recipes</title>
+    <script src="../assets/landing-js/jquery.js"></script>
+    <script src="js/index.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="../assets/landing-css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/recipe.css" />
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top scrolling-navbar" id="navbar"> 
+      <div class="container">
+          <a class="navbar-brand logo" style="color: #fea150; font-family: 'Roboto Slab', serif;" href="/index.html">
+             <strong>SWAHILI DISHEZ</strong>
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+              <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                  <a class="nav-link text" href="#home"><strong>HOME</strong>
+                  <span class="sr-only">(current)</span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text" href="#about"><strong>ABOUT</strong></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text" href="#recipe"><strong>RECIPES</strong></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text" href="#contact"><strong>CONTACT</strong></a>
+              </li>
+              </ul>
+              <ul class="navbar-nav mr-0 sm">
+                  <li class="nav-item"><a class="nav-link" href="#" style="color: #333333;"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="#" style="color: #333333;"><i class="fab fa-instagram"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="#" style="color:#333333"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+           </div>
+          </div>
+      </nav>
+    <!--END OF NAV-->
+
+    <!--BODY CODE-->
+
+    <div class="mt-5 pt-5 recipeSect">
+      <h1 class="text-center ">RECIPES</h1>
+    </div>
+    
+    <div class="container-fluid mx-auto main" style="padding-top: 0.2rem">
+
+      <!--BREAKFAST-->
+      <div class="breakfast" id="breakfast">
+        <div class="mt-1 pt-1 mealSect">
+          <h1 class="text-center">BREAKFAST</h1>
+        </div>
+      <div class="container-fluid" style="padding-top: 0.1rem">
+        <div class="row">
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                
+                <div id="content">
+                    <div id="descript" class="mr-5 pr-5 bg-image hover-overlay ripple descript">
+                      <img src="assets/heroFood.png" class="img-fluid  descriptpic">
+                    </div>
+                    <div class="ml-5 pl-5 descripttext" id="descripttext">
+                      <h2 class="pt-3" style="color: #fea150;">RECIPE NAME</h2>
+
+                      <div class="content">
+                        <div id="process" class="process">
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p>                   
+                       </div>
+                       <div class="ml-5 pl-5 ingredients" id="ingredients">
+                         
+                        
+                         
+                       </div>
+                      </div>
+                      
+                      <div id="process" class="process">
+                        <h5 style="color: #fea150;">INGREDIENTS</h5>
+                        <p>Prep Time: </p>
+                        <p>Cook Time</p>
+                        <p>Serves:</p>                   
+                   </div>
+                   <div class="ml-5 pl-5 ingredients" id="ingredients">
+                     
+                     <h5 style="color: #fea150;">PROCESS</h5>
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p> 
+                     
+                   </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--LUNCH-->
+  <div class="lunch" id="lunch">
+    <div class="mt-1 pt-1 mealSect">
+      <h1 class="text-center">LUNCH</h1>
+    </div>
+  <div class="container-fluid" style="padding-top: 0.1rem">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-lg-3 padding">
+        <div  class="recipeText" id="recipeText">
+            
+            <div id="content">
+                <div id="descript" class="mr-5 pr-5 bg-image hover-overlay ripple descript">
+                  <img src="assets/heroFood.png" class="img-fluid  descriptpic">
+                </div>
+                <div class="ml-5 pl-5 descripttext" id="descripttext">
+                  <h2 class="pt-3" style="color: #fea150;">RECIPE NAME</h2>
+
+                  <div class="content">
+                    <div id="process" class="process">
+                        <p>Prep Time: </p>
+                        <p>Cook Time</p>
+                        <p>Serves:</p>                   
+                   </div>
+                   <div class="ml-5 pl-5 ingredients" id="ingredients">
+                     
+                    
+                     
+                   </div>
+                  </div>
+                  
+                  <div id="process" class="process">
+                    <h5 style="color: #fea150;">INGREDIENTS</h5>
+                    <p>Prep Time: </p>
+                    <p>Cook Time</p>
+                    <p>Serves:</p>                   
+               </div>
+               <div class="ml-5 pl-5 ingredients" id="ingredients">
+                 
+                 <h5 style="color: #fea150;">PROCESS</h5>
+                        <p>Prep Time: </p>
+                        <p>Cook Time</p>
+                        <p>Serves:</p> 
+                 
+               </div>
+                </div>
+              </div>
+            
+        </div>
+        <div class="card mealCad recipeImg" >
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+            </a>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+            <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+          </div>
+        </div>
+      </div>
+      <!--2-->
+      <div class="col-8 col-sm-6 col-lg-3 padding">
+        <div class="recipeText" id="recipeText">
+            <h3>KAIMATI</h3>
+            <p>Planning and development is iterative.</p>
+            <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+            <p>This iterative process allows for changes as business requirements evolve.</p>
+        </div>
+        <div class="card mealCad recipeImg" >
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+            </a>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+            <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+          </div>
+        </div>
+      </div>
+      <!--3-->
+      <div class="col-8 col-sm-6 col-lg-3 padding">
+        <div  class="recipeText" id="recipeText">
+            <h3>KAIMATI</h3>
+            <p>Planning and development is iterative.</p>
+            <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+            <p>This iterative process allows for changes as business requirements evolve.</p>
+        </div>
+        <div class="card mealCad recipeImg" >
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+            </a>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+            <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+          </div>
+        </div>
+      </div>
+      <!--4-->
+      <div class="col-8 col-sm-6 col-lg-3 padding">
+        <div class="recipeText" id="recipeText">
+            <h3>KAIMATI</h3>
+            <p>Planning and development is iterative.</p>
+            <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+            <p>This iterative process allows for changes as business requirements evolve.</p>
+        </div>
+        <div class="card mealCad recipeImg" >
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+            </a>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+            <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+    </div>
+    <!--DINNER-->
+    <div class="dinner" id="dinner">
+      <div class="mt-1 pt-1 mealSect">
+        <h1 class="text-center">DINNER</h1>
+      </div>
+    <div class="container-fluid" style="padding-top: 0.1rem">
+      <div class="row">
+        <div class="col-8 col-sm-6 col-lg-3 padding">
+          <div  class="recipeText" id="recipeText">
+              
+              <div id="content">
+                  <div id="descript" class="mr-5 pr-5 bg-image hover-overlay ripple descript">
+                    <img src="assets/heroFood.png" class="img-fluid  descriptpic">
+                  </div>
+                  <div class="ml-5 pl-5 descripttext" id="descripttext">
+                    <h2 class="pt-3" style="color: #fea150;">RECIPE NAME</h2>
+
+                    <div class="content">
+                      <div id="process" class="process">
+                          <p>Prep Time: </p>
+                          <p>Cook Time</p>
+                          <p>Serves:</p>                   
+                     </div>
+                     <div class="ml-5 pl-5 ingredients" id="ingredients">
+                       
+                      
+                       
+                     </div>
+                    </div>
+                    
+                    <div id="process" class="process">
+                      <h5 style="color: #fea150;">INGREDIENTS</h5>
+                      <p>Prep Time: </p>
+                      <p>Cook Time</p>
+                      <p>Serves:</p>                   
+                 </div>
+                 <div class="ml-5 pl-5 ingredients" id="ingredients">
+                   
+                   <h5 style="color: #fea150;">PROCESS</h5>
+                          <p>Prep Time: </p>
+                          <p>Cook Time</p>
+                          <p>Serves:</p> 
+                   
+                 </div>
+                  </div>
+                </div>
+              
+          </div>
+          <div class="card mealCad recipeImg" >
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+              <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="col-8 col-sm-6 col-lg-3 padding">
+          <div class="recipeText" id="recipeText">
+              <h3>KAIMATI</h3>
+              <p>Planning and development is iterative.</p>
+              <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+              <p>This iterative process allows for changes as business requirements evolve.</p>
+          </div>
+          <div class="card mealCad recipeImg" >
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+              <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="col-8 col-sm-6 col-lg-3 padding">
+          <div  class="recipeText" id="recipeText">
+              <h3>KAIMATI</h3>
+              <p>Planning and development is iterative.</p>
+              <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+              <p>This iterative process allows for changes as business requirements evolve.</p>
+          </div>
+          <div class="card mealCad recipeImg" >
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+              <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="col-8 col-sm-6 col-lg-3 padding">
+          <div class="recipeText" id="recipeText">
+              <h3>KAIMATI</h3>
+              <p>Planning and development is iterative.</p>
+              <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+              <p>This iterative process allows for changes as business requirements evolve.</p>
+          </div>
+          <div class="card mealCad recipeImg" >
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+              <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+      </div>
+      <!--SNACKS-->
+      <div class="snacks" id="snacks">
+        <div class="mt-1 pt-1 mealSect">
+          <h1 class="text-center">SNACKS</h1>
+        </div>
+      <div class="container-fluid" style="padding-top: 0.1rem">
+        <div class="row">
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                
+                <div id="content">
+                    <div id="descript" class="mr-5 pr-5 bg-image hover-overlay ripple descript">
+                      <img src="assets/heroFood.png" class="img-fluid  descriptpic">
+                    </div>
+                    <div class="ml-5 pl-5 descripttext" id="descripttext">
+                      <h2 class="pt-3" style="color: #fea150;">RECIPE NAME</h2>
+
+                      <div class="content">
+                        <div id="process" class="process">
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p>                   
+                       </div>
+                       <div class="ml-5 pl-5 ingredients" id="ingredients">
+                         
+                        
+                         
+                       </div>
+                      </div>
+                      
+                      <div id="process" class="process">
+                        <h5 style="color: #fea150;">INGREDIENTS</h5>
+                        <p>Prep Time: </p>
+                        <p>Cook Time</p>
+                        <p>Serves:</p>                   
+                   </div>
+                   <div class="ml-5 pl-5 ingredients" id="ingredients">
+                     
+                     <h5 style="color: #fea150;">PROCESS</h5>
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p> 
+                     
+                   </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+        </div>
+        <!--SALAD-->
+      <div class="salad" id="salad">
+        <div class="mt-1 pt-1 mealSect">
+          <h1 class="text-center">SALAD</h1>
+        </div>
+      <div class="container-fluid" style="padding-top: 0.1rem">
+        <div class="row">
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                
+                <div id="content">
+                    <div id="descript" class="mr-5 pr-5 bg-image hover-overlay ripple descript">
+                      <img src="assets/heroFood.png" class="img-fluid  descriptpic">
+                    </div>
+                    <div class="ml-5 pl-5 descripttext" id="descripttext">
+                      <h2 class="pt-3" style="color: #fea150;">RECIPE NAME</h2>
+
+                      <div class="content">
+                        <div id="process" class="process">
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p>                   
+                       </div>
+                       <div class="ml-5 pl-5 ingredients" id="ingredients">
+                         
+                        
+                         
+                       </div>
+                      </div>
+                      
+                      <div id="process" class="process">
+                        <h5 style="color: #fea150;">INGREDIENTS</h5>
+                        <p>Prep Time: </p>
+                        <p>Cook Time</p>
+                        <p>Serves:</p>                   
+                   </div>
+                   <div class="ml-5 pl-5 ingredients" id="ingredients">
+                     
+                     <h5 style="color: #fea150;">PROCESS</h5>
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p> 
+                     
+                   </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+        </div>
+        <!--BEVERAGE-->
+      <div class="beverage" id="beverage">
+        <div class="mt-1 pt-1 mealSect">
+          <h1 class="text-center">BEVERAGE</h1>
+        </div>
+      <div class="container-fluid" style="padding-top: 0.1rem">
+        <div class="row">
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                
+                <div id="content">
+                    <div id="descript" class="mr-5 pr-5 bg-image hover-overlay ripple descript">
+                      <img src="assets/heroFood.png" class="img-fluid  descriptpic">
+                    </div>
+                    <div class="ml-5 pl-5 descripttext" id="descripttext">
+                      <h2 class="pt-3" style="color: #fea150;">RECIPE NAME</h2>
+
+                      <div class="content">
+                        <div id="process" class="process">
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p>                   
+                       </div>
+                       <div class="ml-5 pl-5 ingredients" id="ingredients">
+                         
+                        
+                         
+                       </div>
+                      </div>
+                      
+                      <div id="process" class="process">
+                        <h5 style="color: #fea150;">INGREDIENTS</h5>
+                        <p>Prep Time: </p>
+                        <p>Cook Time</p>
+                        <p>Serves:</p>                   
+                   </div>
+                   <div class="ml-5 pl-5 ingredients" id="ingredients">
+                     
+                     <h5 style="color: #fea150;">PROCESS</h5>
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p> 
+                     
+                   </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+        </div>
+        <!--SWEETS-->
+      <div class="sweet" id="sweet">
+        <div class="mt-1 pt-1 mealSect">
+          <h1 class="text-center">SWEETS</h1>
+        </div>
+      <div class="container-fluid" style="padding-top: 0.1rem">
+        <div class="row">
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                
+                <div id="content">
+                    <div id="descript" class="mr-5 pr-5 bg-image hover-overlay ripple descript">
+                      <img src="assets/heroFood.png" class="img-fluid  descriptpic">
+                    </div>
+                    <div class="ml-5 pl-5 descripttext" id="descripttext">
+                      <h2 class="pt-3" style="color: #fea150;">RECIPE NAME</h2>
+
+                      <div class="content">
+                        <div id="process" class="process">
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p>                   
+                       </div>
+                       <div class="ml-5 pl-5 ingredients" id="ingredients">
+                         
+                        
+                         
+                       </div>
+                      </div>
+                      
+                      <div id="process" class="process">
+                        <h5 style="color: #fea150;">INGREDIENTS</h5>
+                        <p>Prep Time: </p>
+                        <p>Cook Time</p>
+                        <p>Serves:</p>                   
+                   </div>
+                   <div class="ml-5 pl-5 ingredients" id="ingredients">
+                     
+                     <h5 style="color: #fea150;">PROCESS</h5>
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p> 
+                     
+                   </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+        </div>
+        <!--FRUITS-->
+      <div class="fruit" id="fruit">
+        <div class="mt-1 pt-1 mealSect">
+          <h1 class="text-center">FRUITS</h1>
+        </div>
+      <div class="container-fluid" style="padding-top: 0.1rem">
+        <div class="row">
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                
+                <div id="content">
+                    <div id="descript" class="mr-5 pr-5 bg-image hover-overlay ripple descript">
+                      <img src="assets/heroFood.png" class="img-fluid  descriptpic">
+                    </div>
+                    <div class="ml-5 pl-5 descripttext" id="descripttext">
+                      <h2 class="pt-3" style="color: #fea150;">RECIPE NAME</h2>
+
+                      <div class="content">
+                        <div id="process" class="process">
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p>                   
+                       </div>
+                       <div class="ml-5 pl-5 ingredients" id="ingredients">
+                         
+                        
+                         
+                       </div>
+                      </div>
+                      
+                      <div id="process" class="process">
+                        <h5 style="color: #fea150;">INGREDIENTS</h5>
+                        <p>Prep Time: </p>
+                        <p>Cook Time</p>
+                        <p>Serves:</p>                   
+                   </div>
+                   <div class="ml-5 pl-5 ingredients" id="ingredients">
+                     
+                     <h5 style="color: #fea150;">PROCESS</h5>
+                            <p>Prep Time: </p>
+                            <p>Cook Time</p>
+                            <p>Serves:</p> 
+                     
+                   </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div  class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-8 col-sm-6 col-lg-3 padding">
+            <div class="recipeText" id="recipeText">
+                <h3>KAIMATI</h3>
+                <p>Planning and development is iterative.</p>
+                <p>Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
+            <div class="card mealCad recipeImg" >
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/heroFood.png" class="img-fluid cardImg" style="width: 100%" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" style="font-weight: normal; color: #333333; font-size: 18px">MINCED BEEF TORTILLA BOWLS</h5>
+
+                <h4 class="text-center" style="color: #fea150; font-family: 'Poppins'; letter-spacing: 0.04em; font-size: 15px; font-weight: 700"><a class="rLink" href="../pages/snack2.html">VIEW RECIPE</a>E</h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+        </div>
+
+    </div>
+    <!--end of body-->
+      <!--FOOTER-->
+    <div class="footer"> 
+      <h1 class="text-center"> Copyright ©2022  |  <a class="text-white" href="index.html">Swahili Dishez</a</h1>      
+    </div>
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  </body>
+  
+</html>
