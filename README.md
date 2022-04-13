@@ -3,7 +3,7 @@
 
 ****
 **Author**
-*Atieno Obwaanda*
+*Atieno Obwanda*
 ****
 **Description**
 This is a simple web application for displaying recipes.
@@ -19,6 +19,7 @@ This is a simple web application for displaying recipes.
 <br/>
 <br/>
 **Live Demo:**
+https://atienoobwanda.github.io/SwahiliRecipeApp/
 ****
 **Technologies used**
 *Html, Css, Js, jQuery*
