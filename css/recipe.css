@@ -30,7 +30,7 @@
 }
 
 .recipeText{
-  width:1600px;
+  width:1570px;
   height: 550px;
   background-color: #FFFFFF;
   border-radius: 15px;
@@ -62,7 +62,7 @@
 }
 #descripttext {
   display: inline-block;
-  width: 900px;
+  width: 450px;
   height: 450px;
   overflow: auto;
   -moz-box-shadow: #555 0 0 8px;
@@ -71,7 +71,7 @@
   box-shadow: #555 0 0 8px;
 }
 .descriptpic{
-  width: 800px;
+  width: 500px;
   height: 450px;
   overflow-y: hidden;
   
